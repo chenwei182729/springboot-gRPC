@@ -4,7 +4,6 @@ import com.citydo.xxx.DemoProtobuf;
 import com.citydo.xxx.DemoServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.springboot.autoconfigure.grpc.server.GrpcService;
-import sun.awt.SunHints;
 
 @GrpcService(DemoServiceGrpc.class)
 public class DemoFunctionImpl extends DemoServiceGrpc.DemoServiceImplBase {
